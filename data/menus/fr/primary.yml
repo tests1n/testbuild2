@@ -13,4 +13,8 @@ items:
   target: "/organisations/"
   kind: page
   children: []
+- title: testpage
+  target: "/testpage/"
+  kind: page
+  children: []
 
