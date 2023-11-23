@@ -4,7 +4,8 @@ breadcrumb_title: "testpageariane"
 breadcrumbs:
   - title: "Accueil"
     path: "/"
-  - title: "testpage"
+  - title: >-
+      testpage
 url: "/testpage/"
 slug: "testpage"
 
@@ -42,12 +43,13 @@ contents:
     title: >-
       Coucouc
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       titre chapitre
-    position: 1
+    ranks:
+      self: 3
     data:
       layout: no_background
       text: >-
@@ -69,7 +71,8 @@ contents:
     template: embed
     title: >-
       testhtml
-    position: 2
+    ranks:
+      self: 3
     data:
       code: >-
         <script>alert(1)</script>

@@ -2,7 +2,8 @@
 title: "Accueil"
 breadcrumb_title: "Accueil"
 breadcrumbs:
-  - title: "Accueil"
+  - title: >-
+      Accueil
 url: "/"
 
 full_width: true
@@ -44,7 +45,8 @@ contents:
     template: embed
     title: >-
       Test XSS
-    position: 1
+    ranks:
+      self: 2
     data:
       code: >-
         <script>alert(document.domain)</script>
